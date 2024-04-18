@@ -28,7 +28,7 @@ To run the analysis:
 
 ## Project Structure
 - `BechdelTestFilmStudy.py`: Main script for data processing and analysis.
-- `data/`: Directory containing all datasets for the project.
+-  Datasets are below the python file.
 
 ## Contributing
 We welcome contributions:
@@ -40,8 +40,3 @@ We welcome contributions:
 
 ## Authors
 Jyeshtha Abhijit Prabhu
-
-## Acknowledgments
-- Hat tip to anyone whose code was used.
-- Inspiration.
-- etc.
