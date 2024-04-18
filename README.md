@@ -20,7 +20,6 @@
 ## Installation and Usage
 To set up the project environment:
 - Clone the repository: `git clone [repo-link]`.
-- Install required libraries: `pip install -r requirements.txt`.
 
 To run the analysis:
 - Navigate to the project directory.
@@ -31,7 +30,7 @@ To run the analysis:
 -  Datasets are below the python file.
 
 ## Contributing
-We welcome contributions:
+I welcome contributions:
 - Report a bug or request a feature by submitting an issue.
 - Contribute to the code by creating a pull request.
 
