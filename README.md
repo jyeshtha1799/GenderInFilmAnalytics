@@ -1,46 +1,47 @@
 # GenderInFilmAnalytics
 
-# Project Description
-"GenderInFilmAnalytics" is a comprehensive analysis aimed at uncovering the evolution and impact of gender representation in Hollywood movies. Utilizing the Bechdel Test as a benchmark, this project dissects movie datasets to correlate Bechdel scores with IMDb ratings. Through meticulously crafted visualizations, the project reveals patterns and trends that provide insights into the industry's progression towards gender equity.
+## Project Description
+- A comprehensive analysis of gender representation in Hollywood movies.
+- Utilizes the Bechdel Test as a benchmark for gender representation.
+- Correlates Bechdel scores with IMDb ratings to assess the impact on film reception.
 
-# Visualizations and Insights
-The following visualizations are central to our analysis:
+## Visualizations and Insights
+- **Histograms of Bechdel Scores**: Distribution of Bechdel scores among the analyzed films.
+- **Trend Line of Movie Releases**: Visualizes the number of movies released over time.
+- **Time Series Analysis**: Tracks changes in the number of movies passing the Bechdel test by decade.
+- **Correlation Plots**: Examines the relationship between Bechdel scores and IMDb ratings.
+- **Director Gender Prediction**: Analyzes director gender distribution and its correlation with Bechdel scores.
 
-Histograms of Bechdel Scores: Showcasing the distribution of Bechdel scores to visualize the prevalence of gender representation.
-Trend Line of Movie Releases: A chronological trend of movie releases highlighting the industry's growth and possibly its changing attitudes towards gender representation.
-Time Series Analysis: Displaying the number of movies passing the Bechdel test by decade, giving a historical perspective on gender portrayal progression.
-Correlation Plots: Contrasting IMDb ratings with Bechdel scores to examine if there's a correlation between a film's portrayal of gender and its reception.
-Director Gender Prediction: Inferring the gender of directors to discuss potential biases and its effects on the Bechdel score.
-The visualizations serve to articulate a narrative about gender dynamics in film, quantifying progress and identifying areas where the industry may still be lacking.
+## Data Sources
+- `movielatest.csv`: Contains current data on movies.
+- `movies.csv`: Historical data providing a wider context for analysis.
+- `getAllMovies.json`: Detailed metadata for a comprehensive analysis.
 
-# Data Sources
-The analysis leverages the following datasets:
+## Installation and Usage
+To set up the project environment:
+- Clone the repository: `git clone [repo-link]`.
+- Install required libraries: `pip install -r requirements.txt`.
 
-movielatest.csv: A dataset containing current movie data.
-movies.csv: Historical movie data including diverse attributes.
-getAllMovies.json: A detailed metadata collection for each film.
+To run the analysis:
+- Navigate to the project directory.
+- Execute the script: `python BechdelTestFilmStudy.py`.
 
-# Installation and Usage
-Before running the analysis, ensure you have Python 3.x installed along with the required libraries:
-pip install pandas matplotlib seaborn numpy scipy plotly express gender_guesser
+## Project Structure
+- `BechdelTestFilmStudy.py`: Main script for data processing and analysis.
+- `data/`: Directory containing all datasets for the project.
 
+## Contributing
+We welcome contributions:
+- Report a bug or request a feature by submitting an issue.
+- Contribute to the code by creating a pull request.
 
-# Execution 
-To execute the script, run:
-python BechdelTestFilmStudy.py
+## License
+- This project is licensed under the MIT License - see the LICENSE file for details.
 
-# Project Structure
-BechdelTestFilmStudy.py: The main Python script with data processing and analysis code.
-data/: Folder containing the datasets used in the analysis.
-
-# Contributing
-Contributions to "GenderInFilmAnalytics" are welcome. Whether it's suggesting new analyses, improving the codebase, or enhancing documentation, we value your input.
-
-# License
-This project is open-sourced under the MIT License.
-
-# Authors
+## Authors
 Jyeshtha Abhijit Prabhu
 
-# Acknowledgments
-Special thanks to all contributors and data providers who made this project possible.
+## Acknowledgments
+- Hat tip to anyone whose code was used.
+- Inspiration.
+- etc.
